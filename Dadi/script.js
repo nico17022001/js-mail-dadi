@@ -1,6 +1,7 @@
 const playerOne = prompt("Inserisci nome giocatore");
 document.querySelector("h2").innerHTML = playerOne;
 const start = document.querySelector("#button");
+const outputMessaggio = document.querySelector("#vincitore");
 
 
 start.addEventListener("click", function(){
@@ -11,15 +12,15 @@ start.addEventListener("click", function(){
   document.querySelector(".number-extracted-2").innerHTML = numeroCasuale2;
   
   if (numeroCasuale > numeroCasuale2){
-    document.querySelector("#vincitore").innerHTML = `Il vincitore è ${playerOne}` 
+    outputMessaggio.innerHTML = `Il vincitore è ${playerOne}` 
   }
 
   else if(numeroCasuale2 > numeroCasuale){
-    document.querySelector("#vincitore").innerHTML ="Il vincitore è PC"
+    outputMessaggio.innerHTML ="Il vincitore è PC"
   }
   
   else {
-    document.querySelector("#vincitore").innerHTML = "Pareggio"
+    outputMessaggio.innerHTML = "Pareggio"
   }
 });
 
