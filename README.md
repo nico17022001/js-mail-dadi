@@ -13,9 +13,11 @@ Stabilire il vincitore, in base a chi fa il punteggio più alto.
 Prima di partire a scrivere codice poniamoci qualche domanda:
 Che ci sia un array da qualche parte?
 Se dobbiamo confrontare qualcosa che “cosa” ci serve?
-## Passaggi
+
+
+## Passaggi mail
 - Creare una lista di email valide 
 - Chiedere la mail all'utente
-- Creare un ciclo per le mail ù
-- Creare la condizione true 
-- creare l'output di verifica sulla console
+- Creare un ciclo per le mail 
+- Creare una Fleg
+- Creare l'output di verifica sulla console

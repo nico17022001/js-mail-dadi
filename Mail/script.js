@@ -8,26 +8,26 @@ const mailList = [
 
 const mailUtente = prompt("inserisci la tua mail")
 
-  let verificato = false 
+let verificato = false
 
+for (i = 0; i < mailList.length; i++) {
 
-  for (i = 0; i < mailList.length; i++){
-
-  if (mailUtente == mailList[i]){
-    verificato = true}
-
-  if (verificato = true){
-    console.log("Sei loggato con successo")
-    
-  }else{
-    console.log("Ritenta accesso")
+  if (mailUtente === mailList[i]) {
+    verificato = true
   }
+}
+if (verificato) {
+  console.log("Sei loggato con successo")
+
+} else {
+  console.log("Ritenta accesso")
 }
 
 
 
 
-  
-  
+
+
+
 
 
