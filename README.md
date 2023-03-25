@@ -26,7 +26,5 @@ Se dobbiamo confrontare qualcosa che “cosa” ci serve?
 - Creare il player
 - Creare 2 generatori di numeri da 1 a 6 
 - Stampare in pagina il nome del giocarore 
-
 - Stabilire il vincitore in base al punteggio più alto
-
 - Stampare in pagina il vincitore 
